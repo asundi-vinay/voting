@@ -1,0 +1,31 @@
+votinf app
+WHAT?????
+
+routes?
+model?
+
+voting app functionalityu:
+1.user sigin/sigup
+2.list of candidates
+3.vote one of candidate
+4.route whcih shows list of candidate and live votes with vote count
+5.user data must contain unique govt id proff:aadhar
+6.ther shd be one admin who can maintian candidate
+7.user can change passwrd
+8.user can login only with aadhar card and passwrd
+
+------------------------------------------------------------
+routes::
+
+
+user authentication:
+    /signup: POST- create new user acc
+    /login: POST- login user
+
+
+voting:
+     /candidate: GET - get list of candidates
+     /vote/:candidateID:POST -vote for a candidate
+
+vote counts:
+      /vote/count:GET- get list of cand sorteted by vote
